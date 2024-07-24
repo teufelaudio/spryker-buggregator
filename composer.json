@@ -1,0 +1,26 @@
+{
+    "name": "teufelaudio/spryker-buggregator",
+    "description": "Provides buggregator integration with Spryker",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Teufelaudio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hardik Gajjar",
+            "email": "hardik.gajjar@teufel.de"
+        }
+    ],
+    "require": {
+        "spiral-packages/profiler": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/teufelaudio/profiler"
+        }
+    ]
+}
