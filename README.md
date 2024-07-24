@@ -26,7 +26,7 @@ Register `RequestProfilerEventDispatcherPlugin` for Yves:
 ```php
 <?php
 
-namespace Teufel\Yves\EventDispatcher;
+namespace Pyz\Yves\EventDispatcher;
 
 use Spryker\Yves\EventDispatcher\EventDispatcherDependencyProvider as SprykerEventDispatcherDependencyProvider;
 use Teufelaudio\Yves\SprykerBuggregator\Plugin\EventDispatcher\RequestProfilerEventDispatcherPlugin;
@@ -48,7 +48,7 @@ Register `ConsoleProfilerListener` for Zed:
 ```php
 <?php
 
-namespace Teufel\Zed\Console;
+namespace Pyz\Zed\Console;
 
 use Spryker\Zed\Console\ConsoleDependencyProvider as SprykerConsoleDependencyProvider;
 use Teufelaudio\Zed\SprykerBuggregator\Communication\Console\EventListener\ConsoleProfilerListener;
@@ -71,7 +71,7 @@ Register the `RequestProfilerEventDispatcherPlugin` for Zed:
 ```php
 <?php
 
-namespace Teufel\Zed\EventDispatcher;
+namespace Pyz\Zed\EventDispatcher;
 
 use Spryker\Zed\EventDispatcher\EventDispatcherDependencyProvider as SprykerEventDispatcherDependencyProvider;
 use Teufelaudio\Zed\SprykerBuggregator\Communication\Plugin\EventDispatcher\RequestProfilerEventDispatcherPlugin;
